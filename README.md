@@ -76,10 +76,10 @@ WebVulnScanner/
 # 📝 Report Output Example
 
 
-[VULNERABLE] SQL Injection detected on http://example.com/login
+[VULNERABLE] SQL Injection detected on http://testphp.vulnweb.com/
 Payload: ' OR '1'='1
 
-[VULNERABLE] XSS vulnerability found in http://example.com/search
+[VULNERABLE] XSS vulnerability found in http://testphp.vulnweb.com/
 Payload: <script>alert('XSS')</script>
 
 ---
